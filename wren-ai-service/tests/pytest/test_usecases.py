@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 
 load_dotenv(".env.dev", override=True)
 
-WREN_AI_SERVICE_BASE_URL = "http://localhost:5556"
+WREN_AI_SERVICE_BASE_URL = "http://localhost:8080"
 WREN_ENGINE_API_URL = "http://localhost:8080"
 
 

@@ -71,8 +71,8 @@ const defaultConfig = {
   wrenAIEndpoint: 'http://localhost:5555',
 
   // ibis server
-  experimentalEngineRustVersion: true,
-  ibisServerEndpoint: 'http://127.0.0.1:8000',
+  experimentalEngineRustVersion: false,
+  ibisServerEndpoint: 'http://127.0.0.1:8080',
 
   // encryption
   encryptionPassword: 'sementic',
@@ -81,7 +81,7 @@ const defaultConfig = {
 
 const config = {
   // node
-  otherServiceUsingDocker: process.env.OTHER_SERVICE_USING_DOCKER === 'true',
+  otherServiceUsingDocker: process.env.OTHER_SERVICE_USING_DOCKER === 'false',
 
   // database
   dbType: process.env.DB_TYPE,
@@ -110,7 +110,7 @@ const config = {
 
   // ibis server
   experimentalEngineRustVersion:
-    process.env.EXPERIMENTAL_ENGINE_RUST_VERSION === 'true',
+    process.env.EXPERIMENTAL_ENGINE_RUST_VERSION === 'false',
   ibisServerEndpoint: process.env.IBIS_SERVER_ENDPOINT,
 
   // encryption

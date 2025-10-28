@@ -95,6 +95,6 @@ if __name__ == "__main__":
         reload_includes=["src/**/*.py", ".env.dev", "config.yaml"],
         reload_excludes=["tests/**/*.py", "eval/**/*.py"],
         workers=1,
-        loop="uvloop",
+        loop="asyncio",
         http="httptools",
     )

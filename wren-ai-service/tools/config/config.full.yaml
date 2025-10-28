@@ -178,7 +178,7 @@ pipes:
 ---
 settings:
   host: 127.0.0.1
-  port: 5556
+  port: 8080
   doc_endpoint: https://docs.getwren.ai
   is_oss: true
   engine_timeout: 30

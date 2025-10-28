@@ -1,3 +1,5 @@
+set shell := ["C:/Program Files/Git/bin/bash.exe", "-cu"]
+
 GREEN := "\u{001b}[32m"
 YELLOW := "\u{001b}[33m"
 RESET := "\u{001b}[0m"
