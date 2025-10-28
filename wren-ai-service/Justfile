@@ -1,4 +1,4 @@
-set shell := ["C:/Program Files/Git/bin/bash.exe", "-cu"]
+set shell := ["/bin/bash", "-cu"]
 
 GREEN := "\u{001b}[32m"
 YELLOW := "\u{001b}[33m"
